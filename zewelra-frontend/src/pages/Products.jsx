@@ -14,7 +14,7 @@ import p8 from "../assets/p8.jpg";
 
 /* ================= DATA ================= */
 const allProducts = [
-  { id: 1, name: "Diamond Tennis Bracelet", price: 4, oldPrice: 4800, category: "Bracelets", image: p1, tag: "SALE", rating: 5, reviews: 38 },
+  { id: 1, name: "Diamond Tennis Bracelet", price: 1, oldPrice: 40, category: "Bracelets", image: p1, tag: "SALE", rating: 5, reviews: 38 },
   { id: 2, name: "Rose Petal Diamond Ring", price: 2850, oldPrice: 3200, category: "Rings", image: p2, tag: "BESTSELLER", rating: 5, reviews: 128 },
   { id: 3, name: "Infinity Gold Bracelet", price: 1280, oldPrice: 1500, category: "Bracelets", image: p3, tag: "SALE", rating: 5, reviews: 112 },
   { id: 4, name: "Golden Vine Necklace", price: 2100, category: "Necklaces", image: p4, tag: "BESTSELLER", rating: 5, reviews: 156 },

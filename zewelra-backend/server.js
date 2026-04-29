@@ -1,4 +1,6 @@
-require("dotenv").config();
+if (process.env.NODE_ENV !== "production") {
+  require("dotenv").config();
+}
 
 const express = require("express");
 const Razorpay = require("razorpay");
@@ -11,7 +13,17 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+/* ================= DEBUG ENV ================= */
+console.log("ENV CHECK:", {
+  key_id: process.env.RAZORPAY_KEY_ID ? "OK" : "MISSING",
+  key_secret: process.env.RAZORPAY_KEY_SECRET ? "OK" : "MISSING"
+});
+
 /* ================= RAZORPAY ================= */
+if (!process.env.RAZORPAY_KEY_ID || !process.env.RAZORPAY_KEY_SECRET) {
+  console.error("❌ Razorpay keys missing");
+}
+
 const razorpay = new Razorpay({
   key_id: process.env.RAZORPAY_KEY_ID,
   key_secret: process.env.RAZORPAY_KEY_SECRET

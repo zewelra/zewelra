@@ -5,4 +5,44 @@
     <loc>https://zewelra.in/</loc>
   </url>
 
+  <url>
+    <loc>https://zewelra.in/about</loc>
+  </url>
+
+  <url>
+    <loc>https://zewelra.in/contact</loc>
+  </url>
+
+  <url>
+    <loc>https://zewelra.in/products</loc>
+  </url>
+
+  <url>
+    <loc>https://zewelra.in/cart</loc>
+  </url>
+
+  <url>
+    <loc>https://zewelra.in/checkout</loc>
+  </url>
+
+  <url>
+    <loc>https://zewelra.in/login</loc>
+  </url>
+
+  <url>
+    <loc>https://zewelra.in/signup</loc>
+  </url>
+
+  <url>
+    <loc>https://zewelra.in/wishlist</loc>
+  </url>
+
+  <url>
+    <loc>https://zewelra.in/orders</loc>
+  </url>
+
+  <url>
+    <loc>https://zewelra.in/profile</loc>
+  </url>
+
 </urlset>
